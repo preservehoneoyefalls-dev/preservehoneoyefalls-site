@@ -1,0 +1,410 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><title>Preserve Honeoye Falls</title>
+<meta name="description" content="Preserve Honeoye Falls is a group of Village and Town of Mendon residents working to keep Honeoye Falls a village. Learn about the proposed Copperfield development and how to be heard.">
+<link rel="canonical" href="https://preservehoneoyefalls.org/">
+</head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: sticky slim nav; full-bleed green hero with the falls badge; alternating cream/paper bands; two-column content that stacks on phones */
+:root{
+  --forest:#1f3d2b; --forest-2:#2f5a3f; --gold:#b8892f; --gold-soft:#c9a24a;
+  --paper:#fbfaf6; --cream:#f2eee3; --ink:#1b231e; --muted:#55615a; --line:#ddd6c6;
+  --water:#2c5570; --on-forest:#f4efe3; --on-forest-muted:#cfd8cf;
+  --card:#ffffff;
+  --display:"Lora",Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --forest:#16291e; --forest-2:#2a4a35; --gold:#d6ac56; --gold-soft:#d6ac56;
+  --paper:#121714; --cream:#19201b; --ink:#e8e6df; --muted:#a6b0a8; --line:#2e3830;
+  --water:#8fb6cf; --on-forest:#f4efe3; --on-forest-muted:#b9c6bc; --card:#1c241f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --forest:#16291e; --forest-2:#2a4a35; --gold:#d6ac56; --gold-soft:#d6ac56;
+  --paper:#121714; --cream:#19201b; --ink:#e8e6df; --muted:#a6b0a8; --line:#2e3830;
+  --water:#8fb6cf; --on-forest:#f4efe3; --on-forest-muted:#b9c6bc; --card:#1c241f; color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--forest)}
+a{color:var(--water);font-weight:600;text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold-soft);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+h2{font-size:clamp(28px,4vw,38px);color:var(--forest)}
+:root[data-theme="dark"] h2{color:var(--gold-soft)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) h2{color:var(--gold-soft)}}
+h3{font-size:21px}
+p{margin:0}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--gold)}
+.lede{font-size:19px;color:var(--muted);max-width:62ch}
+
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--forest);color:var(--on-forest);border-bottom:1px solid rgba(255,255,255,.08)}
+nav .wrap{display:flex;align-items:center;gap:16px;padding-block:10px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--on-forest);text-decoration:none;font-family:var(--display);font-weight:700;font-size:18px}
+.logo-nav{width:40px;height:40px}
+.navlinks{display:flex;gap:18px;margin-left:auto;flex-wrap:wrap}
+.navlinks a{color:var(--on-forest-muted);font-weight:600;font-size:15px;text-decoration:none}
+.navlinks a:hover{color:#fff}
+.navlinks a.cta{color:var(--forest);background:var(--gold-soft);padding:6px 12px;border-radius:6px}
+.navlinks a.docs{color:var(--on-forest);border:1px solid var(--on-forest-muted);padding:5px 11px;border-radius:6px}
+@media (max-width:720px){.navlinks a:not(.cta):not(.docs){display:none}nav .wrap{flex-wrap:nowrap}.brand{font-size:16px}.navlinks{gap:10px}}
+@media (max-width:460px){.brand span{display:none}}
+
+/* hero */
+.hero{background:var(--forest);color:var(--on-forest)}
+.hero .wrap{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;padding-block:56px 60px}
+.hero h1{font-size:clamp(40px,6.4vw,68px);font-weight:700;letter-spacing:-.01em}
+.hero h1 em{font-style:italic;font-weight:500;color:var(--gold-soft)}
+.hero p{font-size:19px;color:var(--on-forest-muted);max-width:52ch;margin-top:18px}
+.hero p b{color:#fff}
+.logo-hero{width:min(290px,60vw);height:auto;filter:drop-shadow(0 10px 30px rgba(0,0,0,.35))}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;font-size:17px}
+.btn.gold{background:var(--gold-soft);color:#1f3d2b}
+.btn.ghost{border:2px solid var(--on-forest-muted);color:var(--on-forest)}
+.btn.green{background:var(--forest-2);color:var(--on-forest)}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr;padding-block:36px 44px}.logo-hero{order:-1;width:150px}}
+
+/* bands */
+section{padding-block:64px}
+section.alt{background:var(--cream)}
+.head{display:grid;gap:10px;margin-bottom:28px}
+
+/* facts */
+.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 16px}
+.fact b{display:block;font-family:var(--display);font-size:38px;color:var(--forest);line-height:1;font-variant-numeric:tabular-nums}
+:root[data-theme="dark"] .fact b{color:var(--gold-soft)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .fact b{color:var(--gold-soft)}}
+.fact span{display:block;margin-top:8px;color:var(--muted);font-size:15px;line-height:1.35}
+.fact b{white-space:nowrap;font-size:34px}
+@media (max-width:1100px){.fact b{font-size:28px}}
+@media (max-width:820px){.facts{grid-template-columns:repeat(2,1fr)}.facts .fact:last-child{grid-column:1 / -1}}
+@media (max-width:480px){.fact b{font-size:30px;white-space:nowrap}}
+.two{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;margin-top:30px;align-items:start}
+.two > *{min-width:0}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.prose{display:grid;gap:14px;max-width:64ch}
+.mix{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.mix h3{font-size:18px;margin-bottom:10px}
+.mix table{width:100%;border-collapse:collapse;font-size:15.5px;font-variant-numeric:tabular-nums}
+.mix td{padding:7px 0;border-bottom:1px solid var(--line)}
+.mix td:last-child{text-align:right;font-weight:700}
+.mix tr:last-child td{border-bottom:0;padding-top:10px}
+.src{font-size:13px;color:var(--muted);margin-top:10px}
+
+/* concerns */
+.concerns{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 40px}
+.concern{display:grid;gap:6px;padding-top:14px;border-top:3px solid var(--gold-soft)}
+.concern h3{color:var(--ink)}
+.concern p{color:var(--muted)}
+.concern.wide{grid-column:1 / -1}
+.concern.wide p{max-width:72ch}
+@media (max-width:720px){.concerns{grid-template-columns:1fr}}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:0;max-width:720px}
+.timeline li{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--line)}
+.timeline time{font-weight:700;color:var(--forest);font-variant-numeric:tabular-nums}
+:root[data-theme="dark"] .timeline time{color:var(--gold-soft)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .timeline time{color:var(--gold-soft)}}
+.timeline li.next time{color:var(--gold)}
+.timeline li.next{border-bottom:0}
+@media (max-width:520px){.timeline li{grid-template-columns:1fr;gap:2px}}
+.who{display:grid;gap:14px}
+.who div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.who b{font-family:var(--display);font-size:18px;display:block;margin-bottom:4px}
+
+/* petition band */
+.petition{background:var(--forest);color:var(--on-forest)}
+.petition .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;align-items:center}
+.petition h2{color:var(--on-forest)!important}
+.petition p{color:var(--on-forest-muted)}
+.tally{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.tally div{border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:16px}
+.tally b{display:block;font-family:var(--display);font-size:36px;color:var(--gold-soft);line-height:1;font-variant-numeric:tabular-nums}
+.tally span{font-size:14px;color:var(--on-forest-muted)}
+@media (max-width:820px){.petition .wrap{grid-template-columns:1fr}}
+
+/* actions */
+.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.action{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:8px}
+.action .step{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.action p{color:var(--muted);font-size:16px}
+.action .btn{margin-top:auto;align-self:flex-start;font-size:15px;padding:9px 14px}
+@media (max-width:900px){.actions{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.actions{grid-template-columns:1fr}}
+.copyrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:auto}
+.copyrow code{font-family:var(--body);font-weight:700;color:var(--ink);background:var(--cream);padding:6px 9px;border-radius:6px;word-break:break-all;user-select:all}
+.copy{font:inherit;font-size:14px;font-weight:700;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:6px;padding:6px 10px;cursor:pointer}
+
+/* about */
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;align-items:start}
+.about > *{min-width:0}
+@media (max-width:820px){.about{grid-template-columns:1fr}}
+.note{background:var(--card);border-left:4px solid var(--gold-soft);padding:16px 18px;border-radius:0 10px 10px 0;color:var(--muted);font-size:16px}
+
+footer{background:var(--forest);color:var(--on-forest-muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:26px}
+footer a{color:var(--on-forest)}
+</style>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="logo-nav" role="img" aria-label="Preserve Honeoye Falls logo">
+  <defs>
+    <path id="topn" d="M 90 300 A 210 210 0 0 1 510 300"/>
+    <path id="botn" d="M 78 300 A 222 222 0 0 0 522 300"/>
+    <clipPath id="innern"><circle cx="300" cy="300" r="168"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="290" fill="#1f3d2b"/>
+  <circle cx="300" cy="300" r="276" fill="none" stroke="#c9a24a" stroke-width="3"/>
+  <circle cx="300" cy="300" r="172" fill="#f4efe3" stroke="#c9a24a" stroke-width="4"/>
+  <text font-family="Lora" font-weight="700" font-size="44" fill="#f4efe3" letter-spacing="5">
+    <textPath href="#topn" startOffset="50%" text-anchor="middle">PRESERVE</textPath></text>
+  <text font-family="Lora" font-weight="700" font-size="40" fill="#f4efe3" letter-spacing="4">
+    <textPath href="#botn" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">HONEOYE FALLS</textPath></text>
+  <circle cx="98" cy="300" r="7" fill="#c9a24a"/><circle cx="502" cy="300" r="7" fill="#c9a24a"/>
+  <g clip-path="url(#innern)">
+    <rect x="100" y="100" width="400" height="400" fill="#f4efe3"/>
+    <path d="M120 262 Q 200 228 280 252 T 480 244 L 480 320 L 120 320 Z" fill="#9db08f"/>
+    <g fill="#1f3d2b">
+      <rect x="356" y="214" width="22" height="50"/>
+      <polygon points="356,214 367,172 378,214"/>
+      <circle cx="367" cy="170" r="3.5"/>
+      <rect x="336" y="238" width="62" height="34"/>
+      <polygon points="332,240 367,220 402,240"/>
+    </g>
+    <g fill="#2f5a3f">
+      <polygon points="150,272 170,220 190,272"/><polygon points="178,276 202,206 226,276"/>
+      <polygon points="220,276 236,236 252,276"/>
+    </g>
+    <path d="M100 272 L 500 272 L 500 500 L 100 500 Z" fill="#5b4a3a"/>
+    <path d="M100 272 L 196 272 L 186 300 L 174 330 L 168 360 L 160 420 L 100 420 Z" fill="#4a3c2f"/>
+    <path d="M500 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 500 420 Z" fill="#4a3c2f"/>
+    <path d="M196 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 160 420 L 168 360 L 174 330 L 186 300 Z" fill="#3f6f8f"/>
+    <g stroke="#e8f1f6" stroke-width="5" stroke-linecap="round" opacity="0.92">
+      <line x1="210" y1="282" x2="196" y2="400"/><line x1="240" y1="290" x2="234" y2="410"/>
+      <line x1="270" y1="282" x2="268" y2="392"/><line x1="300" y1="292" x2="300" y2="414"/>
+      <line x1="330" y1="282" x2="332" y2="396"/><line x1="360" y1="290" x2="366" y2="410"/>
+      <line x1="390" y1="282" x2="404" y2="400"/>
+    </g>
+    <path d="M100 408 Q 160 396 220 408 T 340 408 T 460 408 T 520 408 L 520 500 L 100 500 Z" fill="#2c5570"/>
+    <path d="M170 430 Q 210 422 250 430 M 300 446 Q 340 438 380 446 M 220 464 Q 260 456 300 464" stroke="#cfe0ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="300" cy="300" r="170" fill="none" stroke="#c9a24a" stroke-width="4"/>
+</svg>
+<span>Preserve Honeoye Falls</span></a>
+    <div class="navlinks">
+      <a href="#copperfield">Copperfield</a>
+      <a href="#concerns">Concerns</a>
+      <a href="#status">Where it stands</a>
+      <a href="#about">About us</a>
+      <a class="docs" href="https://villageofhoneoyefalls.gov/1333/Copperfield" target="_blank" rel="noopener">Documents ↗</a>
+      <a class="cta" href="#petition">Take action</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Village of Honeoye Falls · Town of Mendon</div>
+      <h1 style="margin-top:12px">Keep Honeoye Falls <em>a village.</em></h1>
+      <p>A large housing development called Copperfield is proposed on farmland at the edge of the Village. <b>It's still under review, and residents can still be heard.</b></p>
+      <div class="btns">
+        <a class="btn gold" href="https://sign.moveon.org/petitions/saying-no-to-copperfield" target="_blank" rel="noopener">Sign the petition</a>
+        <a class="btn ghost" href="#petition">How to help</a>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="logo-hero" role="img" aria-label="Preserve Honeoye Falls logo">
+  <defs>
+    <path id="toph" d="M 90 300 A 210 210 0 0 1 510 300"/>
+    <path id="both" d="M 78 300 A 222 222 0 0 0 522 300"/>
+    <clipPath id="innerh"><circle cx="300" cy="300" r="168"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="290" fill="#1f3d2b"/>
+  <circle cx="300" cy="300" r="276" fill="none" stroke="#c9a24a" stroke-width="3"/>
+  <circle cx="300" cy="300" r="172" fill="#f4efe3" stroke="#c9a24a" stroke-width="4"/>
+  <text font-family="Lora" font-weight="700" font-size="44" fill="#f4efe3" letter-spacing="5">
+    <textPath href="#toph" startOffset="50%" text-anchor="middle">PRESERVE</textPath></text>
+  <text font-family="Lora" font-weight="700" font-size="40" fill="#f4efe3" letter-spacing="4">
+    <textPath href="#both" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">HONEOYE FALLS</textPath></text>
+  <circle cx="98" cy="300" r="7" fill="#c9a24a"/><circle cx="502" cy="300" r="7" fill="#c9a24a"/>
+  <g clip-path="url(#innerh)">
+    <rect x="100" y="100" width="400" height="400" fill="#f4efe3"/>
+    <path d="M120 262 Q 200 228 280 252 T 480 244 L 480 320 L 120 320 Z" fill="#9db08f"/>
+    <g fill="#1f3d2b">
+      <rect x="356" y="214" width="22" height="50"/>
+      <polygon points="356,214 367,172 378,214"/>
+      <circle cx="367" cy="170" r="3.5"/>
+      <rect x="336" y="238" width="62" height="34"/>
+      <polygon points="332,240 367,220 402,240"/>
+    </g>
+    <g fill="#2f5a3f">
+      <polygon points="150,272 170,220 190,272"/><polygon points="178,276 202,206 226,276"/>
+      <polygon points="220,276 236,236 252,276"/>
+    </g>
+    <path d="M100 272 L 500 272 L 500 500 L 100 500 Z" fill="#5b4a3a"/>
+    <path d="M100 272 L 196 272 L 186 300 L 174 330 L 168 360 L 160 420 L 100 420 Z" fill="#4a3c2f"/>
+    <path d="M500 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 500 420 Z" fill="#4a3c2f"/>
+    <path d="M196 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 160 420 L 168 360 L 174 330 L 186 300 Z" fill="#3f6f8f"/>
+    <g stroke="#e8f1f6" stroke-width="5" stroke-linecap="round" opacity="0.92">
+      <line x1="210" y1="282" x2="196" y2="400"/><line x1="240" y1="290" x2="234" y2="410"/>
+      <line x1="270" y1="282" x2="268" y2="392"/><line x1="300" y1="292" x2="300" y2="414"/>
+      <line x1="330" y1="282" x2="332" y2="396"/><line x1="360" y1="290" x2="366" y2="410"/>
+      <line x1="390" y1="282" x2="404" y2="400"/>
+    </g>
+    <path d="M100 408 Q 160 396 220 408 T 340 408 T 460 408 T 520 408 L 520 500 L 100 500 Z" fill="#2c5570"/>
+    <path d="M170 430 Q 210 422 250 430 M 300 446 Q 340 438 380 446 M 220 464 Q 260 456 300 464" stroke="#cfe0ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="300" cy="300" r="170" fill="none" stroke="#c9a24a" stroke-width="4"/>
+</svg>
+
+  </div>
+</header>
+
+<section id="copperfield">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">The proposal</div>
+      <h2>What is Copperfield?</h2>
+      <p class="lede">Morrell Team In Motion LLC proposes a large subdivision on about 179 acres of farmland east of North Main Street (Route 65) and north of East Street, inside the Village.</p>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>412</b><span>homes, townhomes and apartments</span></div>
+      <div class="fact"><b>1,000+</b><span>new residents, according to the developer's own engineer</span></div>
+      <div class="fact"><b>47%</b><span>Village growth since 2020 (about 1,285 people), counting Wolfsberger Park next door</span></div>
+      <div class="fact"><b>2027–42</b><span>built in 7 phases over about 15 years</span></div>
+      <div class="fact"><b>~300</b><span>more car trips in the evening rush hour, by the developer's own traffic study</span></div>
+    </div>
+    <div class="two">
+      <div class="prose">
+        <p>The plans include an apartment building up to 52 feet tall and homes with 5-foot side yards and more lot coverage than Village zoning normally allows.</p>
+        <p>New streets would connect at Hyde Park (off North Main Street), Chase Meadow Trail, Fairlawn Drive and Quaker Meeting House Road. Hyde Park would change from a one-way street to two-way.</p>
+        <p><b>Why 47%?</b> Wolfsberger Park, built by the same builder off Route 65 since the 2020 Census, adds another 118 homes, or about 270 people at the Village's average household size. Add Copperfield's 1,000+ and the Village would gain about 1,285 residents, roughly 47% more than its 2020 population of 2,706.</p>
+      </div>
+      <div class="mix">
+        <h3>The unit mix</h3>
+        <table>
+          <tr><td>Single-family homes</td><td>205</td></tr>
+          <tr><td>Townhomes</td><td>37</td></tr>
+          <tr><td>Apartments (one building)</td><td>170</td></tr>
+          <tr><td><b>Total</b></td><td>412</td></tr>
+        </table>
+        <p class="src">Sources: the applicant's Preliminary Engineer's Report (June 2026), traffic study (Dec. 2025), Environmental Assessment Form and plan sheets; 2020 U.S. Census.</p>
+        <p style="margin-top:14px;font-size:15.5px"><a href="https://villageofhoneoyefalls.gov/1333/Copperfield" target="_blank" rel="noopener">Read the full application, plans and agency letters on the Village's Copperfield page →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="concerns">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Why it matters</div>
+      <h2>Questions neighbors are asking</h2>
+      <p class="lede">We're not against every new home. In the Village's own survey, residents named the "small town/village atmosphere" as their top reason for living here. We're asking that a project this size be studied fully and fit that village.</p>
+    </div>
+    <div class="concerns">
+      <div class="concern"><h3>Traffic on Route 65 and East Street</h3><p>Most Copperfield traffic would use North Main Street, a state road, and a new connection would send more onto East Street through Fairlawn Drive. East Street already backs up at school drop-off and pick-up; the Fire Department has asked for relief there. The developer's study counted one weekday, assumed no other new development, and left out the Main, East and Monroe intersection. It recommends no road improvements.</p></div>
+      <div class="concern"><h3>Who pays</h3><p>No study shows what Copperfield would cost the Village: new streets and utilities to maintain, about 81 acres of open space handed to the Village, and more demand on fire and EMS. Nothing in the plans has the developer sharing those costs. We think it should.</p></div>
+      <div class="concern"><h3>Stormwater and flooding</h3><p>The site's clay soils absorb almost no water, and the developer's own environmental form says runoff will reach neighboring properties. Neighbors downstream already report flooding.</p></div>
+      <div class="concern"><h3>A full environmental review</h3><p>A project this size calls for a full Environmental Impact Statement that looks at all phases together, along with Wolfsberger Park and other planned development, before any decision is made.</p></div>
+      <div class="concern wide"><h3>What comes next</h3><p>We worry that a development this size at the edge of the Village, with 1,000+ new residents and hundreds more cars at rush hour, will invite drive-throughs, franchises and other unwanted development.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="status">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Where it stands</div>
+      <h2>Not approved. Not a done deal.</h2>
+    </div>
+    <div class="two" style="margin-top:0">
+      <ol class="timeline">
+        <li><time>July 21, 2026</time><span>Zoning Board of Appeals votes to lead the environmental review.</span></li>
+        <li><time>Sept. 14</time><span>Public hearing opens before the Zoning Board of Appeals.</span></li>
+        <li><time>Oct. 5</time><span>Hearing closes. Written comments are still accepted for the project file.</span></li>
+        <li><time>Oct. 19</time><span>Village Board orders its own independent traffic study.</span></li>
+        <li class="next"><time>Next</time><span>No meeting is scheduled yet. The Mayor has said a new public hearing will be held, with about a month's notice. We'll post the date as soon as it's announced.</span></li>
+      </ol>
+      <div class="who">
+        <div><b>Zoning Board of Appeals</b>Reviews the subdivision and leads the environmental review (called SEQR).</div>
+        <div><b>Village Board of Trustees</b>Decides a related rezoning (a land swap with a neighboring business).</div>
+        <div><b>Town of Mendon</b>Has formally asked for a full, cumulative review and for the developer to pay for any mitigation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="petition" id="petition">
+  <div class="wrap">
+    <div style="display:grid;gap:14px">
+      <div class="eyebrow">Add your name</div>
+      <h2>Sign the petition</h2>
+      <p>“Saying NO to Copperfield” asks the Zoning Board of Appeals and our elected officials to block the proposal as it stands. It's open to anyone who lives in Honeoye Falls or Mendon, or simply loves it here.</p>
+      <div class="btns" style="margin-top:6px"><a class="btn gold" href="https://sign.moveon.org/petitions/saying-no-to-copperfield" target="_blank" rel="noopener">Sign on MoveOn</a></div>
+    </div>
+    <div class="tally" aria-label="Community support">
+      <div><b>500+</b><span>petition signatures</span></div>
+      <div><b>300+</b><span>Facebook group members</span></div>
+      <div><b>180+</b><span>yard signs up</span></div>
+      <div><b>60</b><span>neighbors on our formal comment letter</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="act">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Take action</div>
+      <h2>More ways to help</h2>
+    </div>
+    <div class="actions">
+      <div class="action"><div class="step">Join</div><h3>Get updates</h3><p>Our Facebook group posts news and meeting dates, and it's where to ask for a yard sign.</p><a class="btn green" href="https://www.facebook.com/share/g/19wvcsbTPN/" target="_blank" rel="noopener">Join the group</a></div>
+      <div class="action"><div class="step">Write</div><h3>Comment for the record</h3><p>A short, specific email in your own words goes into the official project file. Say where you live and what concerns you.</p><div class="copyrow"><code id="villageEmail">Village@villageofhoneoyefalls.gov</code><button class="copy" type="button" data-copy="villageEmail">Copy</button></div></div>
+      <div class="action"><div class="step">Show up</div><h3>Come to the hearing</h3><p>A full room matters. Come when the next public hearing is announced, and speak if you can.</p></div>
+      <div class="action"><div class="step">Chip in</div><h3>Help fund the effort</h3><p>Contributions help us work with land-use counsel. Contributions are not tax-deductible.</p><a class="btn green" href="https://venmo.com/u/preservehfl" target="_blank" rel="noopener">Venmo @preservehfl</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="about">
+  <div class="wrap about">
+    <div class="prose">
+      <div class="eyebrow">About us</div>
+      <h2>Who we are</h2>
+      <p>Preserve Honeoye Falls is a nonpartisan group of Village of Honeoye Falls and Town of Mendon residents. We came together in 2026 when the Copperfield proposal reached the Zoning Board of Appeals.</p>
+      <p>We have filed to incorporate as a New York not-for-profit so we can raise and manage money responsibly and work with experienced land-use counsel. Everything we share comes from public documents: the developer's own application, letters from state and local agencies, official meeting minutes, and the Village's Comprehensive Plan.</p>
+    </div>
+    <div class="note">
+      <b style="color:var(--ink)">Contact us</b><br>
+      Questions, ideas, or want to help?<br>
+      <div class="copyrow" style="margin-top:10px"><code id="ourEmail">preservehoneoyefalls@gmail.com</code><button class="copy" type="button" data-copy="ourEmail">Copy</button></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Preserve Honeoye Falls · Paid for by Preserve Honeoye Falls · Contributions are not tax-deductible.</span>
+    <span>Updated November 2026</span>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var el=document.getElementById(b.dataset.copy), t=el.textContent.trim();
+    function sel(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected';}
+    try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1800)},sel);}catch(e){sel();}
+  });
+});
+</script>
+
+</body></html>
