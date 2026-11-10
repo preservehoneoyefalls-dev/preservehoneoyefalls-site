@@ -1,0 +1,205 @@
+# Decap CMS editor settings for preservehoneoyefalls.org (opened at /admin).
+backend:
+  name: github
+  repo: preservehoneoyefalls-dev/preservehoneoyefalls-site
+  branch: main
+  commit_messages:
+    create: "Add page: {{slug}} (via editor)"
+    update: "Update {{collection}}: {{slug}} (via editor)"
+    delete: "Delete page: {{slug}} (via editor)"
+    uploadMedia: "Upload file: {{path}} (via editor)"
+    deleteMedia: "Delete file: {{path}} (via editor)"
+
+site_url: https://preservehoneoyefalls.org
+display_url: https://preservehoneoyefalls.org
+media_folder: uploads
+public_folder: /uploads
+
+collections:
+  - name: home
+    label: Homepage
+    description: "Every section of the homepage. Change the words, then click Publish (top right). The live site updates in about a minute."
+    editor:
+      preview: false
+    files:
+      - name: home
+        label: Homepage
+        file: content/home.json
+        format: json
+        fields:
+          - label: Site-wide settings
+            name: site
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Site name (browser tab), name: title, widget: string }
+              - { label: Search engine description, name: description, widget: text, hint: "One or two sentences shown in Google results and link previews." }
+              - { label: Petition link, name: petition_url, widget: string, hint: "Used by every Sign the petition button." }
+              - { label: Village documents link, name: documents_url, widget: string }
+              - { label: Documents button text, name: documents_label, widget: string }
+              - { label: Facebook group link, name: facebook_url, widget: string }
+              - { label: Our contact email, name: contact_email, widget: string }
+              - label: Extra menu links
+                name: menu
+                widget: list
+                required: false
+                hint: "Add a link here to show a new page in the top menu. For a page you made under Pages, the link is /p/ followed by its web address, e.g. /p/meeting-guide"
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: Text, name: label, widget: string }
+                  - { label: Link, name: url, widget: string }
+              - { label: Footer text, name: footer_text, widget: string }
+              - { label: '"Updated" note (footer)', name: updated, widget: string, hint: "e.g. Updated December 2026" }
+
+          - label: Top banner
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small line above headline, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: string }
+              - { label: Headline ending (gold italic), name: headline_emphasis, widget: string, required: false }
+              - { label: Intro, name: intro, widget: text, hint: "Wrap words in **double asterisks** to make them bold." }
+              - { label: Main button text, name: primary_button, widget: string }
+              - { label: Second button text, name: secondary_button, widget: string, required: false }
+
+          - label: What is Copperfield?
+            name: copperfield
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - { label: Intro, name: lede, widget: text }
+              - label: Big numbers
+                name: facts
+                widget: list
+                summary: "{{fields.number}} {{fields.label}}"
+                fields:
+                  - { label: Number, name: number, widget: string }
+                  - { label: Caption, name: label, widget: string }
+              - { label: Main text, name: body, widget: text, hint: "Leave a blank line between paragraphs. **Bold**, *italic* and [link text](https://...) work." }
+              - { label: Unit mix box title, name: mix_title, widget: string }
+              - label: Unit mix rows
+                name: mix
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: Type, name: label, widget: string }
+                  - { label: Count, name: value, widget: string }
+              - { label: Unit mix total, name: mix_total, widget: string, required: false }
+              - { label: Sources note, name: sources, widget: text, required: false }
+              - { label: Documents link text, name: documents_link_text, widget: string, required: false }
+
+          - label: Concerns
+            name: concerns
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - { label: Intro, name: lede, widget: text }
+              - label: Concerns
+                name: items
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+                  - { label: Full width, name: wide, widget: boolean, default: false, required: false }
+
+          - label: Where it stands
+            name: status
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - label: Timeline
+                name: timeline
+                widget: list
+                summary: "{{fields.date}}: {{fields.text}}"
+                hint: "Newest at the bottom. Turn on 'Highlight as next' for the upcoming item."
+                fields:
+                  - { label: Date, name: date, widget: string }
+                  - { label: What happened, name: text, widget: text }
+                  - { label: Highlight as next, name: next, widget: boolean, default: false, required: false }
+              - label: Who decides
+                name: bodies
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Role, name: text, widget: text }
+
+          - label: Petition
+            name: petition
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Button text, name: button, widget: string }
+              - label: Support counts
+                name: tally
+                widget: list
+                summary: "{{fields.number}} {{fields.label}}"
+                fields:
+                  - { label: Number, name: number, widget: string }
+                  - { label: Caption, name: label, widget: string }
+
+          - label: More ways to help
+            name: actions
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - label: Cards
+                name: items
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Small label, name: step, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+                  - { label: Button text, name: button_label, widget: string, required: false }
+                  - { label: Button link, name: button_url, widget: string, required: false }
+                  - { label: Copyable text (e.g. an email address), name: copy_text, widget: string, required: false, hint: "Shows a Copy box instead of a button." }
+
+          - label: About us
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small label, name: eyebrow, widget: string }
+              - { label: Heading, name: title, widget: string }
+              - { label: Text, name: body, widget: text, hint: "Leave a blank line between paragraphs." }
+              - { label: Contact box title, name: contact_title, widget: string }
+              - { label: Contact box text, name: contact_text, widget: string }
+
+  - name: pages
+    label: Pages
+    label_singular: Page
+    description: "Extra pages, each at preservehoneoyefalls.org/p/web-address. To show one in the top menu, add it under Homepage → Site-wide settings → Extra menu links."
+    folder: content/pages
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}}  (/p/{{slug}})"
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Small label above title, name: eyebrow, widget: string, required: false }
+      - { label: Intro, name: intro, widget: text, required: false }
+      - label: Page text
+        name: body
+        widget: markdown
+        buttons: [bold, italic, link, heading-two, heading-three, bulleted-list, numbered-list]
+        editor_components: [image]
+        hint: "Use the toolbar for headings, bold, lists and links. Add a picture with the + button."
