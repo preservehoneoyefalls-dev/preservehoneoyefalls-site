@@ -15,6 +15,7 @@ display_url: https://preservehoneoyefalls.org
 media_folder: uploads
 public_folder: /uploads
 
+publish_mode: editorial_workflow
 collections:
   - name: home
     label: Homepage
