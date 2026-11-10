@@ -15,7 +15,7 @@
     "eyebrow": "Village of Honeoye Falls · Town of Mendon",
     "headline": "Keep Honeoye Falls",
     "headline_emphasis": "a village.",
-    "intro": "An out-of-town developer wants to build a large, tract housing development called Copperfield on Village farmland. Read more about why this project is bad for the Village and the community that calls Honeoye Falls home.  **It's still under review, and residents can still be heard.**",
+    "intro": "A developer wants to build a large, tract housing development called Copperfield on Village farmland. Read more about why this project is bad for the Village and the community that calls Honeoye Falls home.  **The project CANNOT proceed without Village approval, and no approval has been given as of now. Residents can still be heard.**",
     "primary_button": "Sign the petition",
     "secondary_button": "How to help"
   },
@@ -29,15 +29,15 @@
       },
       {
         "number": "1,000+",
-        "label": "new residents, according to the developer's own engineer"
+        "label": "new residents, according to Morrell's own estimates"
       },
       {
         "number": "47%",
-        "label": "Village growth since 2020 (about 1,285 people), counting Wolfsberger Park next door"
+        "label": "actual and projected increase in village population since 2020 (about 1,285 people), which includes current, ongoing housing developments such as Wolfsberger Park"
       },
       {
-        "number": "2027–42",
-        "label": "built in 7 phases over about 15 years"
+        "number": "2027 to 2042",
+        "label": "the project timeline for the construction of Copperfield from start to finish (7 phases, 15 years)"
       },
       {
         "number": "~300",
@@ -49,7 +49,7 @@
     "mix_title": "The unit mix",
     "title": "What is Copperfield?",
     "sources": "Sources: the applicant's Preliminary Engineer's Report (June 2026), traffic study (Dec. 2025), Environmental Assessment Form and plan sheets; 2020 U.S. Census.",
-    "lede": "Morrell Team In Motion LLC proposes a large subdivision on about 179 acres of farmland east of North Main Street (Route 65) and north of East Street, inside the Village.",
+    "lede": "Morrell Builders, a developer in Victor, has proposed a large subdivision of single and multi-family homes to 179 acres of farmland. This land is located inside four main village thoroughfares: Main St (Route 65), East Street, Cheese Factory Road and Quaker Meeting House Road. ",
     "mix": [
       {
         "label": "Single-family homes",
