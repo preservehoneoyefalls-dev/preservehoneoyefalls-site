@@ -1,12 +1,130 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>Edit the site · Preserve Honeoye Falls</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Preserve Honeoye Falls</title>
+<meta name="description" content="Preserve Honeoye Falls is a group of Village and Town of Mendon residents working to keep Honeoye Falls a village. Learn about the proposed Copperfield development and how to be heard.">
+<link rel="canonical" href="https://preservehoneoyefalls.org/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+<!-- The words on this site live in content/home.json and content/pages/. Edit them at /admin. -->
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" id="brandlink" href="#top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="logo-nav" role="img" aria-label="Preserve Honeoye Falls logo">
+  <defs>
+    <path id="topn" d="M 90 300 A 210 210 0 0 1 510 300"/>
+    <path id="botn" d="M 78 300 A 222 222 0 0 0 522 300"/>
+    <clipPath id="innern"><circle cx="300" cy="300" r="168"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="290" fill="#1f3d2b"/>
+  <circle cx="300" cy="300" r="276" fill="none" stroke="#c9a24a" stroke-width="3"/>
+  <circle cx="300" cy="300" r="172" fill="#f4efe3" stroke="#c9a24a" stroke-width="4"/>
+  <text font-family="Lora" font-weight="700" font-size="44" fill="#f4efe3" letter-spacing="5">
+    <textPath href="#topn" startOffset="50%" text-anchor="middle">PRESERVE</textPath></text>
+  <text font-family="Lora" font-weight="700" font-size="40" fill="#f4efe3" letter-spacing="4">
+    <textPath href="#botn" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">HONEOYE FALLS</textPath></text>
+  <circle cx="98" cy="300" r="7" fill="#c9a24a"/><circle cx="502" cy="300" r="7" fill="#c9a24a"/>
+  <g clip-path="url(#innern)">
+    <rect x="100" y="100" width="400" height="400" fill="#f4efe3"/>
+    <path d="M120 262 Q 200 228 280 252 T 480 244 L 480 320 L 120 320 Z" fill="#9db08f"/>
+    <g fill="#1f3d2b">
+      <rect x="356" y="214" width="22" height="50"/>
+      <polygon points="356,214 367,172 378,214"/>
+      <circle cx="367" cy="170" r="3.5"/>
+      <rect x="336" y="238" width="62" height="34"/>
+      <polygon points="332,240 367,220 402,240"/>
+    </g>
+    <g fill="#2f5a3f">
+      <polygon points="150,272 170,220 190,272"/><polygon points="178,276 202,206 226,276"/>
+      <polygon points="220,276 236,236 252,276"/>
+    </g>
+    <path d="M100 272 L 500 272 L 500 500 L 100 500 Z" fill="#5b4a3a"/>
+    <path d="M100 272 L 196 272 L 186 300 L 174 330 L 168 360 L 160 420 L 100 420 Z" fill="#4a3c2f"/>
+    <path d="M500 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 500 420 Z" fill="#4a3c2f"/>
+    <path d="M196 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 160 420 L 168 360 L 174 330 L 186 300 Z" fill="#3f6f8f"/>
+    <g stroke="#e8f1f6" stroke-width="5" stroke-linecap="round" opacity="0.92">
+      <line x1="210" y1="282" x2="196" y2="400"/><line x1="240" y1="290" x2="234" y2="410"/>
+      <line x1="270" y1="282" x2="268" y2="392"/><line x1="300" y1="292" x2="300" y2="414"/>
+      <line x1="330" y1="282" x2="332" y2="396"/><line x1="360" y1="290" x2="366" y2="410"/>
+      <line x1="390" y1="282" x2="404" y2="400"/>
+    </g>
+    <path d="M100 408 Q 160 396 220 408 T 340 408 T 460 408 T 520 408 L 520 500 L 100 500 Z" fill="#2c5570"/>
+    <path d="M170 430 Q 210 422 250 430 M 300 446 Q 340 438 380 446 M 220 464 Q 260 456 300 464" stroke="#cfe0ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="300" cy="300" r="170" fill="none" stroke="#c9a24a" stroke-width="4"/>
+</svg>
+<span>Preserve Honeoye Falls</span></a>
+    <div class="navlinks" id="navlinks"></div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow" id="hero-eyebrow"></div>
+      <h1 style="margin-top:12px" id="hero-title"></h1>
+      <p id="hero-intro"></p>
+      <div class="btns" id="hero-btns"></div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="logo-hero" role="img" aria-label="Preserve Honeoye Falls logo">
+  <defs>
+    <path id="toph" d="M 90 300 A 210 210 0 0 1 510 300"/>
+    <path id="both" d="M 78 300 A 222 222 0 0 0 522 300"/>
+    <clipPath id="innerh"><circle cx="300" cy="300" r="168"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="290" fill="#1f3d2b"/>
+  <circle cx="300" cy="300" r="276" fill="none" stroke="#c9a24a" stroke-width="3"/>
+  <circle cx="300" cy="300" r="172" fill="#f4efe3" stroke="#c9a24a" stroke-width="4"/>
+  <text font-family="Lora" font-weight="700" font-size="44" fill="#f4efe3" letter-spacing="5">
+    <textPath href="#toph" startOffset="50%" text-anchor="middle">PRESERVE</textPath></text>
+  <text font-family="Lora" font-weight="700" font-size="40" fill="#f4efe3" letter-spacing="4">
+    <textPath href="#both" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">HONEOYE FALLS</textPath></text>
+  <circle cx="98" cy="300" r="7" fill="#c9a24a"/><circle cx="502" cy="300" r="7" fill="#c9a24a"/>
+  <g clip-path="url(#innerh)">
+    <rect x="100" y="100" width="400" height="400" fill="#f4efe3"/>
+    <path d="M120 262 Q 200 228 280 252 T 480 244 L 480 320 L 120 320 Z" fill="#9db08f"/>
+    <g fill="#1f3d2b">
+      <rect x="356" y="214" width="22" height="50"/>
+      <polygon points="356,214 367,172 378,214"/>
+      <circle cx="367" cy="170" r="3.5"/>
+      <rect x="336" y="238" width="62" height="34"/>
+      <polygon points="332,240 367,220 402,240"/>
+    </g>
+    <g fill="#2f5a3f">
+      <polygon points="150,272 170,220 190,272"/><polygon points="178,276 202,206 226,276"/>
+      <polygon points="220,276 236,236 252,276"/>
+    </g>
+    <path d="M100 272 L 500 272 L 500 500 L 100 500 Z" fill="#5b4a3a"/>
+    <path d="M100 272 L 196 272 L 186 300 L 174 330 L 168 360 L 160 420 L 100 420 Z" fill="#4a3c2f"/>
+    <path d="M500 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 500 420 Z" fill="#4a3c2f"/>
+    <path d="M196 272 L 404 272 L 414 300 L 426 330 L 432 360 L 440 420 L 160 420 L 168 360 L 174 330 L 186 300 Z" fill="#3f6f8f"/>
+    <g stroke="#e8f1f6" stroke-width="5" stroke-linecap="round" opacity="0.92">
+      <line x1="210" y1="282" x2="196" y2="400"/><line x1="240" y1="290" x2="234" y2="410"/>
+      <line x1="270" y1="282" x2="268" y2="392"/><line x1="300" y1="292" x2="300" y2="414"/>
+      <line x1="330" y1="282" x2="332" y2="396"/><line x1="360" y1="290" x2="366" y2="410"/>
+      <line x1="390" y1="282" x2="404" y2="400"/>
+    </g>
+    <path d="M100 408 Q 160 396 220 408 T 340 408 T 460 408 T 520 408 L 520 500 L 100 500 Z" fill="#2c5570"/>
+    <path d="M170 430 Q 210 422 250 430 M 300 446 Q 340 438 380 446 M 220 464 Q 260 456 300 464" stroke="#cfe0ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="300" cy="300" r="170" fill="none" stroke="#c9a24a" stroke-width="4"/>
+</svg>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <div class="wrap" id="footer"></div>
+</footer>
+
+<noscript><p style="padding:20px">Please turn on JavaScript to view this site.</p></noscript>
+<script src="/assets/site.js"></script>
+<script src="/assets/home.js"></script>
 </body>
 </html>
