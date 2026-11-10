@@ -1,72 +1,145 @@
 {
   "site": {
-    "title": "Preserve Honeoye Falls",
-    "description": "Preserve Honeoye Falls is a group of Village and Town of Mendon residents working to keep Honeoye Falls a village. Learn about the proposed Copperfield development and how to be heard.",
-    "petition_url": "https://sign.moveon.org/petitions/saying-no-to-copperfield",
     "documents_url": "https://villageofhoneoyefalls.gov/1333/Copperfield",
-    "documents_label": "Documents",
-    "facebook_url": "https://www.facebook.com/share/g/19wvcsbTPN/",
-    "contact_email": "preservehoneoyefalls@gmail.com",
-    "menu": [],
+    "documents_label": "Documents ",
+    "petition_url": "https://sign.moveon.org/petitions/saying-no-to-copperfield",
     "footer_text": "© 2026 Preserve Honeoye Falls · Paid for by Preserve Honeoye Falls · Contributions are not tax-deductible.",
-    "updated": "Updated November 2026"
+    "facebook_url": "https://www.facebook.com/share/g/1Nf4ZH8Da8/",
+    "title": "Preserve Honeoye Falls",
+    "updated": "Updated November 2026",
+    "description": "Preserve Honeoye Falls is a grassroots organization composed of Mendon and Honeoye Falls residents, whose mission is the care and stewardship of the historic Village of Honeoye Falls in Western New York. ",
+    "contact_email": "preservehoneoyefalls@gmail.com",
+    "menu": []
   },
   "hero": {
     "eyebrow": "Village of Honeoye Falls · Town of Mendon",
     "headline": "Keep Honeoye Falls",
     "headline_emphasis": "a village.",
-    "intro": "A large housing development called Copperfield is proposed on farmland at the edge of the Village. **It's still under review, and residents can still be heard.**",
+    "intro": "An out-of-town developer wants to build a large, tract housing development called Copperfield on Village farmland. Read more about why this project is bad for the Village and the community that calls Honeoye Falls home.  **It's still under review, and residents can still be heard.**",
     "primary_button": "Sign the petition",
     "secondary_button": "How to help"
   },
   "copperfield": {
-    "eyebrow": "The proposal",
-    "title": "What is Copperfield?",
-    "lede": "Morrell Team In Motion LLC proposes a large subdivision on about 179 acres of farmland east of North Main Street (Route 65) and north of East Street, inside the Village.",
-    "facts": [
-      { "number": "412", "label": "homes, townhomes and apartments" },
-      { "number": "1,000+", "label": "new residents, according to the developer's own engineer" },
-      { "number": "47%", "label": "Village growth since 2020 (about 1,285 people), counting Wolfsberger Park next door" },
-      { "number": "2027–42", "label": "built in 7 phases over about 15 years" },
-      { "number": "~300", "label": "more car trips in the evening rush hour, by the developer's own traffic study" }
-    ],
-    "body": "The plans include an apartment building up to 52 feet tall and homes with 5-foot side yards and more lot coverage than Village zoning normally allows.\n\nNew streets would connect at Hyde Park (off North Main Street), Chase Meadow Trail, Fairlawn Drive and Quaker Meeting House Road. Hyde Park would change from a one-way street to two-way.\n\n**Why 47%?** Wolfsberger Park, built by the same builder off Route 65 since the 2020 Census, adds another 118 homes, or about 270 people at the Village's average household size. Add Copperfield's 1,000+ and the Village would gain about 1,285 residents, roughly 47% more than its 2020 population of 2,706.",
-    "mix_title": "The unit mix",
-    "mix": [
-      { "label": "Single-family homes", "value": "205" },
-      { "label": "Townhomes", "value": "37" },
-      { "label": "Apartments (one building)", "value": "170" }
-    ],
     "mix_total": "412",
+    "body": "The plans include an apartment building up to 52 feet tall and homes with 5-foot side yards and more lot coverage than Village zoning normally allows.\n\nNew streets would connect at Hyde Park (off North Main Street), Chase Meadow Trail, Fairlawn Drive and Quaker Meeting House Road. Hyde Park would change from a one-way street to two-way.\n\n**Why 47%?** Wolfsberger Park, built by the same builder off Route 65 since the 2020 Census, adds another 118 homes, or about 270 people at the Village's average household size. Add Copperfield's 1,000+ and the Village would gain about 1,285 residents, roughly 47% more than its 2020 population of 2,706.",
+    "facts": [
+      {
+        "number": "412",
+        "label": "homes, townhomes and apartments"
+      },
+      {
+        "number": "1,000+",
+        "label": "new residents, according to the developer's own engineer"
+      },
+      {
+        "number": "47%",
+        "label": "Village growth since 2020 (about 1,285 people), counting Wolfsberger Park next door"
+      },
+      {
+        "number": "2027–42",
+        "label": "built in 7 phases over about 15 years"
+      },
+      {
+        "number": "~300",
+        "label": "more car trips in the evening rush hour, by the developer's own traffic study"
+      }
+    ],
+    "eyebrow": "The proposal",
+    "documents_link_text": "Read the full application, plans and agency letters on the Village's Copperfield page →",
+    "mix_title": "The unit mix",
+    "title": "What is Copperfield?",
     "sources": "Sources: the applicant's Preliminary Engineer's Report (June 2026), traffic study (Dec. 2025), Environmental Assessment Form and plan sheets; 2020 U.S. Census.",
-    "documents_link_text": "Read the full application, plans and agency letters on the Village's Copperfield page →"
+    "lede": "Morrell Team In Motion LLC proposes a large subdivision on about 179 acres of farmland east of North Main Street (Route 65) and north of East Street, inside the Village.",
+    "mix": [
+      {
+        "label": "Single-family homes",
+        "value": "205"
+      },
+      {
+        "label": "Townhomes",
+        "value": "37"
+      },
+      {
+        "label": "Apartments (one building)",
+        "value": "170"
+      }
+    ]
   },
   "concerns": {
     "eyebrow": "Why it matters",
     "title": "Questions neighbors are asking",
     "lede": "We're not against every new home. In the Village's own survey, residents named the \"small town/village atmosphere\" as their top reason for living here. We're asking that a project this size be studied fully and fit that village.",
     "items": [
-      { "title": "Traffic on Route 65 and East Street", "text": "Most Copperfield traffic would use North Main Street, a state road, and a new connection would send more onto East Street through Fairlawn Drive. East Street already backs up at school drop-off and pick-up; the Fire Department has asked for relief there. The developer's study counted one weekday, assumed no other new development, and left out the Main, East and Monroe intersection. It recommends no road improvements.", "wide": false },
-      { "title": "Who pays", "text": "No study shows what Copperfield would cost the Village: new streets and utilities to maintain, about 81 acres of open space handed to the Village, and more demand on fire and EMS. Nothing in the plans has the developer sharing those costs. We think it should.", "wide": false },
-      { "title": "Stormwater and flooding", "text": "The site's clay soils absorb almost no water, and the developer's own environmental form says runoff will reach neighboring properties. Neighbors downstream already report flooding.", "wide": false },
-      { "title": "A full environmental review", "text": "A project this size calls for a full Environmental Impact Statement that looks at all phases together, along with Wolfsberger Park and other planned development, before any decision is made.", "wide": false },
-      { "title": "What comes next", "text": "We worry that a development this size at the edge of the Village, with 1,000+ new residents and hundreds more cars at rush hour, will invite drive-throughs, franchises and other unwanted development.", "wide": true }
+      {
+        "title": "Traffic on Route 65 and East Street",
+        "text": "Most Copperfield traffic would use North Main Street, a state road, and a new connection would send more onto East Street through Fairlawn Drive. East Street already backs up at school drop-off and pick-up; the Fire Department has asked for relief there. The developer's study counted one weekday, assumed no other new development, and left out the Main, East and Monroe intersection. It recommends no road improvements.",
+        "wide": false
+      },
+      {
+        "title": "Who pays",
+        "text": "No study shows what Copperfield would cost the Village: new streets and utilities to maintain, about 81 acres of open space handed to the Village, and more demand on fire and EMS. Nothing in the plans has the developer sharing those costs. We think it should.",
+        "wide": false
+      },
+      {
+        "title": "Stormwater and flooding",
+        "text": "The site's clay soils absorb almost no water, and the developer's own environmental form says runoff will reach neighboring properties. Neighbors downstream already report flooding.",
+        "wide": false
+      },
+      {
+        "title": "A full environmental review",
+        "text": "A project this size calls for a full Environmental Impact Statement that looks at all phases together, along with Wolfsberger Park and other planned development, before any decision is made.",
+        "wide": false
+      },
+      {
+        "title": "What comes next",
+        "text": "We worry that a development this size at the edge of the Village, with 1,000+ new residents and hundreds more cars at rush hour, will invite drive-throughs, franchises and other unwanted development.",
+        "wide": true
+      }
     ]
   },
   "status": {
     "eyebrow": "Where it stands",
     "title": "Not approved. Not a done deal.",
     "timeline": [
-      { "date": "July 21, 2026", "text": "Zoning Board of Appeals votes to lead the environmental review.", "next": false },
-      { "date": "Sept. 14", "text": "Public hearing opens before the Zoning Board of Appeals.", "next": false },
-      { "date": "Oct. 5", "text": "Hearing closes. Written comments are still accepted for the project file.", "next": false },
-      { "date": "Oct. 19", "text": "Village Board orders its own independent traffic study.", "next": false },
-      { "date": "Next", "text": "No meeting is scheduled yet. The Mayor has said a new public hearing will be held, with about a month's notice. We'll post the date as soon as it's announced.", "next": true }
+      {
+        "date": "July 21, 2026",
+        "text": "Zoning Board of Appeals votes to lead the environmental review.",
+        "next": false
+      },
+      {
+        "date": "Sept. 14",
+        "text": "Public hearing opens before the Zoning Board of Appeals.",
+        "next": false
+      },
+      {
+        "date": "Oct. 5",
+        "text": "Hearing closes. Written comments are still accepted for the project file.",
+        "next": false
+      },
+      {
+        "date": "Oct. 19",
+        "text": "Village Board orders its own independent traffic study.",
+        "next": false
+      },
+      {
+        "date": "Next",
+        "text": "No meeting is scheduled yet. The Mayor has said a new public hearing will be held, with about a month's notice. We'll post the date as soon as it's announced.",
+        "next": true
+      }
     ],
     "bodies": [
-      { "name": "Zoning Board of Appeals", "text": "Reviews the subdivision and leads the environmental review (called SEQR)." },
-      { "name": "Village Board of Trustees", "text": "Decides a related rezoning (a land swap with a neighboring business)." },
-      { "name": "Town of Mendon", "text": "Has formally asked for a full, cumulative review and for the developer to pay for any mitigation." }
+      {
+        "name": "Zoning Board of Appeals",
+        "text": "Reviews the subdivision and leads the environmental review (called SEQR)."
+      },
+      {
+        "name": "Village Board of Trustees",
+        "text": "Decides a related rezoning (a land swap with a neighboring business)."
+      },
+      {
+        "name": "Town of Mendon",
+        "text": "Has formally asked for a full, cumulative review and for the developer to pay for any mitigation."
+      }
     ]
   },
   "petition": {
@@ -75,20 +148,60 @@
     "text": "“Saying NO to Copperfield” asks the Zoning Board of Appeals and our elected officials to block the proposal as it stands. It's open to anyone who lives in Honeoye Falls or Mendon, or simply loves it here.",
     "button": "Sign on MoveOn",
     "tally": [
-      { "number": "500+", "label": "petition signatures" },
-      { "number": "300+", "label": "Facebook group members" },
-      { "number": "180+", "label": "yard signs up" },
-      { "number": "60", "label": "neighbors on our formal comment letter" }
+      {
+        "number": "500+",
+        "label": "petition signatures"
+      },
+      {
+        "number": "300+",
+        "label": "Facebook group members"
+      },
+      {
+        "number": "180+",
+        "label": "yard signs up"
+      },
+      {
+        "number": "60",
+        "label": "neighbors on our formal comment letter"
+      }
     ]
   },
   "actions": {
     "eyebrow": "Take action",
     "title": "More ways to help",
     "items": [
-      { "step": "Join", "title": "Get updates", "text": "Our Facebook group posts news and meeting dates, and it's where to ask for a yard sign.", "button_label": "Join the group", "button_url": "https://www.facebook.com/share/g/19wvcsbTPN/", "copy_text": "" },
-      { "step": "Write", "title": "Comment for the record", "text": "A short, specific email in your own words goes into the official project file. Say where you live and what concerns you.", "button_label": "", "button_url": "", "copy_text": "Village@villageofhoneoyefalls.gov" },
-      { "step": "Show up", "title": "Come to the hearing", "text": "A full room matters. Come when the next public hearing is announced, and speak if you can.", "button_label": "", "button_url": "", "copy_text": "" },
-      { "step": "Chip in", "title": "Help fund the effort", "text": "Contributions help us work with land-use counsel. Contributions are not tax-deductible.", "button_label": "Venmo @preservehfl", "button_url": "https://venmo.com/u/preservehfl", "copy_text": "" }
+      {
+        "step": "Join",
+        "title": "Get updates",
+        "text": "Our Facebook group posts news and meeting dates, and it's where to ask for a yard sign.",
+        "button_label": "Join the group",
+        "button_url": "https://www.facebook.com/share/g/19wvcsbTPN/",
+        "copy_text": ""
+      },
+      {
+        "step": "Write",
+        "title": "Comment for the record",
+        "text": "A short, specific email in your own words goes into the official project file. Say where you live and what concerns you.",
+        "button_label": "",
+        "button_url": "",
+        "copy_text": "Village@villageofhoneoyefalls.gov"
+      },
+      {
+        "step": "Show up",
+        "title": "Come to the hearing",
+        "text": "A full room matters. Come when the next public hearing is announced, and speak if you can.",
+        "button_label": "",
+        "button_url": "",
+        "copy_text": ""
+      },
+      {
+        "step": "Chip in",
+        "title": "Help fund the effort",
+        "text": "Contributions help us work with land-use counsel. Contributions are not tax-deductible.",
+        "button_label": "Venmo @preservehfl",
+        "button_url": "https://venmo.com/u/preservehfl",
+        "copy_text": ""
+      }
     ]
   },
   "about": {
