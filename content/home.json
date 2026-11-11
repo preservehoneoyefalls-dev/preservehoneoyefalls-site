@@ -15,7 +15,7 @@
     "eyebrow": "\"Come for the charm, stay for the experience\" -- Honeoye Falls village motto",
     "headline": "Keep Honeoye Falls",
     "headline_emphasis": "a village.",
-    "intro": "A developer wants to build a large, tract housing development called Copperfield on village farmland. This project is bad for the village and the community that calls Honeoye Falls and Mendon home.  **The project CANNOT proceed without village approval and NO approval has been given as of now. There is still time to make your voice heard!**",
+    "intro": "A developer wants to build a large, tract housing development called Copperfield on village farmland. This project is bad for the village and the community that calls Honeoye Falls and Mendon home. \n\n**The project CANNOT proceed without village approval and NO approval has been given as of now. There is still time to make your voice heard!**",
     "primary_button": "Sign the petition",
     "secondary_button": "How to help"
   },
@@ -66,8 +66,8 @@
     ]
   },
   "concerns": {
-    "eyebrow": "Why it matters",
-    "title": "Questions neighbors are asking",
+    "eyebrow": "Why here? Why now? ",
+    "title": "Questions people are asking",
     "lede": "We're not against every new home. In the Village's own survey, residents named the \"small town/village atmosphere\" as their top reason for living here. We're asking that a project this size be studied fully and fit that village.",
     "items": [
       {
