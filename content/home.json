@@ -89,11 +89,6 @@
         "title": "Demand a Full and Comprehensive Environmental Review",
         "text": "Village and state law requires that the village board of zoning appeals or ZBA exercise oversight over large-scale housing developments like Copperfield. This responsibility includes an assessment by the ZBA of whether the development would have a \"significant effect\" on the environment. If the answer is \"yes\", then the developer must conduct a comprehensive review to study all the potential environmental impacts of its proposed development and submit a detailed statement to the ZBA for its review, also known as an \"environmental impact statement\". Given the unprecedented size and scale of Copperfield, it is critically important that the ZBA requires the developer, Morrell Builders, to submit a full and objective \"environmental impact statement.\" ",
         "wide": false
-      },
-      {
-        "title": "What comes next",
-        "text": "We worry that a development this size at the edge of the Village, with 1,000+ new residents and hundreds more cars at rush hour, will invite drive-throughs, franchises and other unwanted development.",
-        "wide": true
       }
     ]
   },
@@ -103,18 +98,33 @@
     "timeline": [
       {
         "date": "July 21, 2026",
-        "text": "Zoning Board of Appeals votes to lead the environmental review.",
+        "text": "The village Zoning Board of Appeals or ZBA appoints itself \"lead agency\" -- an official designation under village zoning law -- to conduct the environmental review of the proposed Copperfield project.",
         "next": false
+      },
+      {
+        "next": false,
+        "date": "Sept. 2",
+        "text": "The Mendon Town Board issues a five-page memorandum to the Village Board of Trustees outlining its concerns about Copperfield and requesting additional information from the village about the project. "
       },
       {
         "date": "Sept. 14",
-        "text": "Public hearing opens before the Zoning Board of Appeals.",
+        "text": "The Zoning Board of Appeals holds its first public hearing on the Copperfield project. Hundreds attend. Public comment uniformly opposed to the project. ",
         "next": false
       },
       {
+        "next": false,
+        "date": "Sept. 18",
+        "text": "An online petition opposing the Copperfield project is launched. As of Nov. 2026, it has received over 600 signatures. "
+      },
+      {
         "date": "Oct. 5",
-        "text": "Hearing closes. Written comments are still accepted for the project file.",
+        "text": "A second public hearing is held before the Zoning Board of Appeals. Public comment again uniformly opposed to Copperfield. No official action taken by ZBA. Public comment period is held open for written submissions. ",
         "next": false
+      },
+      {
+        "next": false,
+        "date": "Oct. 16",
+        "text": "The Village government announces that no ZBA public hearing on Copperfield will be scheduled for the month of November. "
       },
       {
         "date": "Oct. 19",
